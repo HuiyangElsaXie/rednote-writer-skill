@@ -10,9 +10,9 @@ A Chinese-language planning and writing skill for RedNote (小红书), used with
 
 ## Use / 使用
 
-Use [skills/rednote-writer/SKILL.md](skills/rednote-writer/SKILL.md) as the entrypoint. Copy the `rednote-writer` folder into your agent's supported skill directory, or provide the file explicitly. No account login or publishing integration is included; tool availability and permissions depend on the host.
+Use [skills/rednote-writer/SKILL.md](skills/rednote-writer/SKILL.md) as the entrypoint. Keep the full repository and provide the entrypoint explicitly. Copying only the nested folder omits root examples/provenance; preserve the complete layout for any host-specific installation. No account login or publishing integration is included; tool availability and permissions depend on the host.
 
-将 `skills/rednote-writer` 文件夹复制到 agent 支持的技能目录，或明确提供其中的 `SKILL.md`。给出话题、目标读者、适用地区/时间、内容目的、可披露事实、语气及是否需要图片。已有可访问背景应复用并简要说明，避免反复询问。
+保留完整仓库，并明确提供 `skills/rednote-writer/SKILL.md`；仅复制子目录会遗漏根目录示例与来源说明，宿主自动发现规则需另行核对。给出话题、目标读者、适用地区/时间、内容目的、可披露事实、语气及是否需要图片。已有可访问背景应复用并简要说明，避免反复询问。
 
 ## Research before writing / 先检索，后写作
 
