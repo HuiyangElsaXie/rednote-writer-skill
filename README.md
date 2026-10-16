@@ -1,5 +1,7 @@
 # rednote-writer-skill
 
+先看 [虚构工作坊：正文与三页图文方案](examples/fictional-workshop.md)，其中明确未联网、未产图。[Skill 入口](skills/rednote-writer/SKILL.md) · [审阅案例](VALIDATION.md)。 / Existing fictional copy and visual plan; no generated images.
+
 **RedNote Writer / 小红书内容写作**
 
 A Chinese-language planning and writing skill for RedNote (小红书), used with an AI agent. The skill supplies a source-led workflow; the agent and its available tools perform the work. Personal context is supplied at runtime, never bundled.
@@ -53,4 +55,4 @@ Maintained for personal use and updated as the workflow evolves. No new root ope
 
 个人自用，会持续更新。新增与适配部分未指定根开源许可证，详见权利与来源说明。实际采用的第三方部分继续适用其原许可；个人自用的定位不缩减原许可已授予的商用等权利。
 
-Canonical repository: [rednote-writer-skill](https://github.com/HuiyangElsaXie/rednote-writer-skill). Related workflows: [general social](https://github.com/HuiyangElsaXie/social-media-post-writer-skill), [EN/ZH blog](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill), [RedNote](https://github.com/HuiyangElsaXie/rednote-writer-skill).
+Canonical repository: [rednote-writer-skill](https://github.com/HuiyangElsaXie/rednote-writer-skill). Related workflows: [general social](https://github.com/HuiyangElsaXie/social-media-post-writer-skill), [EN/ZH blog](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill).
