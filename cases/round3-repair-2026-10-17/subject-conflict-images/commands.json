@@ -1,0 +1,36 @@
+{
+  "record_type": "Retrospective reconstruction of actual calls, recorded during output write; no invented calls.",
+  "events": [
+    {
+      "call": 1,
+      "tool": "functions.exec / tools.exec_command",
+      "action": "designated Python -X utf8 read",
+      "paths": [
+        "repo/skills/rednote-writer/SKILL.md",
+        "case/brief.md",
+        "case/case.json"
+      ],
+      "outcome": "exit_code 0; source text returned"
+    },
+    {
+      "call": 2,
+      "tool": "functions.exec / tools.exec_command",
+      "action": "designated Python -X utf8 read",
+      "paths": [
+        "repo/skills/rednote-writer/references/research-and-images.md"
+      ],
+      "outcome": "exit_code 0; reference text returned"
+    },
+    {
+      "call": 3,
+      "tool": "functions.exec / tools.exec_command",
+      "action": "designated Python -X utf8 write first answer, hash loaded skill files, write evidence files",
+      "paths": [
+        "case/raw-response.md",
+        "case/tool-availability.md",
+        "case/commands.json"
+      ],
+      "outcome": "raw-response.md written first, unchanged; hashes computed; tool-availability.md written; commands.json being written by this call"
+    }
+  ]
+}

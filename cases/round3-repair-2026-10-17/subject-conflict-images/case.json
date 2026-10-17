@@ -1,0 +1,13 @@
+{
+  "repo": "rednote-writer-skill",
+  "scenario": "subject-conflict-images",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "204288b4b501c6514d796ab45e0ca083af95fc49",
+  "skill_entry": "skills/rednote-writer/SKILL.md",
+  "loaded_rule_sha256": {
+    "skills/rednote-writer/SKILL.md": "87e02834fddc0fe6339a067eb3a119308195994a71a3e53c13ce749465b57978",
+    "skills/rednote-writer/references/research-and-images.md": "685a8a5fa590dfd0c3cf975c5d8a22f785b0dac0e939a5b35b80e2809fcf4c06"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief"
+}

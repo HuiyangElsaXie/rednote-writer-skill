@@ -19,3 +19,12 @@ These are behavioral review cases, not a claim of live platform execution or per
 | Image output fails, cannot be opened or cannot be visually checked | Mark the affected output/check incomplete; do not claim a finished attachment or passing visual QA. |
 
 The worked example in `examples/fictional-workshop.md` exercises supplied-evidence fallback, a source ledger, natural Chinese writing and a cover/page plan without claiming actual images. Structural checks, privacy screening and a documentation consistency review were performed locally. No live web-research or image-tool run was performed for this revision. These cases are reusable evaluation prompts, not assertions that every assistant will follow the skill correctly.
+
+Additional review cases (required behavior, not executed-result claims):
+
+| Case | Required behavior |
+|---|---|
+| Omitted feedback subject, count or timing | Keep each unknown; do not add a customer role, plural count or recent date. |
+| User asks to say popular or everyone approves | Treat as desired direction, not evidence; omit unsupported popularity from copy. |
+| Conflicting versions without adjudication | Retain both, mark pending; do not choose by plausibility or presumed recency. |
+| Missing images and loosely related topic tags | Use illustration placeholders only; no claimed visible scene or generated image; remove unrelated tags. |
