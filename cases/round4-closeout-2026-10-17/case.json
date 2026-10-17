@@ -1,0 +1,13 @@
+{
+  "repo": "rednote-writer-skill",
+  "scenario": "method-and-outcome",
+  "base_commit": "89d84e46d4b985cadbd734f9431e98272990c545",
+  "configured_model": "gpt-6.1-sol",
+  "entry": "skills/rednote-writer/SKILL.md",
+  "rule_sha256": {
+    "skills/rednote-writer/SKILL.md": "bddfcc73ef03dd77495c4ca42783a96b53884722d6d387ecf4fa28afc58947a5",
+    "skills/rednote-writer/references/research-and-images.md": "685a8a5fa590dfd0c3cf975c5d8a22f785b0dac0e939a5b35b80e2809fcf4c06"
+  },
+  "brief_authored_by": "root, separately from executor",
+  "external_business_tools_and_paid_api": "prohibited"
+}

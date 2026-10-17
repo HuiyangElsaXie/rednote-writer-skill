@@ -1,0 +1,57 @@
+{
+  "record_type": "reconstructed execution record, not native telemetry",
+  "tools_executed": [
+    "functions.exec wrapping tools.exec_command (PowerShell)",
+    "specified local python.exe -X utf8"
+  ],
+  "actions": [
+    {
+      "step": 1,
+      "operation": "read",
+      "paths": [
+        "skills/rednote-writer/SKILL.md",
+        "brief.md",
+        "case.json"
+      ],
+      "tool": "PowerShell Get-Content -Raw",
+      "outcome": "success; Chinese entry display damaged; not used to infer Chinese rules"
+    },
+    {
+      "step": 2,
+      "operation": "read",
+      "paths": [
+        "skills/rednote-writer/SKILL.md"
+      ],
+      "tool": "specified Python UTF-8 read; json.dumps ensure_ascii=True",
+      "outcome": "readable escaped Unicode rules loaded"
+    },
+    {
+      "step": 3,
+      "operation": "read and SHA-256",
+      "paths": [
+        "skills/rednote-writer/references/research-and-images.md",
+        "skills/rednote-writer/SKILL.md"
+      ],
+      "tool": "specified Python UTF-8 and hashlib",
+      "outcome": "reference loaded; both hashes matched case.json"
+    },
+    {
+      "step": 4,
+      "operation": "ordinary pre-submission checks",
+      "tool": "agent content inspection and local Python assertions",
+      "outcome": "checked supplied facts, unknown outcomes, title/body alignment, audience, relevant tags, no invented personal story; no post-submission review or repair"
+    },
+    {
+      "step": 5,
+      "operation": "write",
+      "paths": [
+        "raw-response.md",
+        "commands.json",
+        "tool-availability.md"
+      ],
+      "tool": "specified Python pathlib write_text UTF-8",
+      "outcome": "first complete submitted deliverable saved unchanged and records saved"
+    }
+  ],
+  "scope": "All writes confined to this task run folder. No examples, cases directory, prior reports, other runs, private files, external tools or Git operations read/executed."
+}
